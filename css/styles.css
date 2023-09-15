@@ -482,8 +482,9 @@ align-items: baseline;
       align-items: center;
 }
 .footer-mail-form{
-    padding-left: 80px ;
+padding-left: 80px ;
  margin-right: 24px;
+ 
 }
 .footer-form-input{
   width: 264px;
