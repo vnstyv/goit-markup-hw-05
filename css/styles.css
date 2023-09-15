@@ -564,6 +564,8 @@ margin-left: 16px;
   position: absolute;
   top: 24px;
   right: 24px;
+  width: 24px;
+  height: 24px;
   line-height: 0;
   background-color: transparent;
   padding: 0;
@@ -582,6 +584,7 @@ margin-left: 16px;
 .close-btn:focus{
 stroke: #4D5AE5;
 background-color: #404bbf;
+border: none;
 }
 .close-btn-icon{
 transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -622,10 +625,11 @@ border-radius: 4px;
   background-color: transparent;
   outline: transparent;
 }
-.contacts-form-input:focus{
+.contacts-form-input:focus,
+.contacts-form-input:hover{
 border-color: #4D5AE5;
 outline: transparent;
-
+fill: #ffffff
 }
 .contacts-form-icon{
   fill: #2E2F42;
@@ -639,7 +643,7 @@ outline: transparent;
   fill: #4D5AE5;
 }
 .contacts-form-field-wrapper{
-  margin-bottom: 16px
+  margin-bottom: 8px
 }
 .contacts-form-field{
   width: 100%;
