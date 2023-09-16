@@ -643,7 +643,7 @@ outline: transparent;
   fill: #4D5AE5;
 }
 .contacts-form-field-wrapper{
-  margin-bottom: 8px
+  margin-bottom: 16px;
 }
 .contacts-form-field{
   width: 100%;
@@ -668,9 +668,6 @@ outline: transparent;
   border-color: #4D5AE5;
   outline: transparent;
 }
-.form-checkbox-wrapper{
-margin-bottom: 16px;
-}
 .form-checkbox-label{
   color:  #8E8F99;
     font-size: 12px;
@@ -686,6 +683,9 @@ margin-bottom: 16px;
     line-height: 16px;
     letter-spacing: 0.48px;
     text-decoration-line: underline;
+}
+.form-checkbox-wrapper{
+  margin-bottom: 24px;
 }
 .form-own-checkbox{
   display: inline-flex;
