@@ -600,7 +600,7 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     margin-bottom: 16px;
     line-height: 1.5;
 }
-.name-contacts-form-field-wrapper{
+.contacts-form-wrapper{
   margin-bottom: 8px;
 }
 .contacts-form-field-label{
